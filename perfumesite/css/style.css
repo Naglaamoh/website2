@@ -1,0 +1,585 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    perspective: 700px;
+}
+
+.header{
+
+    width: 100%;
+    height: 60px;
+    background-color: rgba(254, 253, 253, 0.8);
+    top: 0;
+    z-index: 20;
+
+}
+h1{
+    display: inline;
+    color:rgb(121, 79, 31) ;
+    font-style: italic;
+}
+.list li{
+
+    list-style-type: none;
+    
+    display: inline;
+    float: left;
+    
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 25px;
+    }
+ .a1{
+        color: rgb(183, 141, 94);
+        text-decoration: none;
+        margin-top: 30px;
+
+    }
+    .parentmain{
+        width: 100%;
+        height: 750px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* justify-content: flex-start; */
+        /* align-self: start; */
+    }
+    .main2{
+        width: 300px;
+        height: 100px;
+       
+        
+        margin-top: 300px;
+
+        margin-left: 80px;
+       
+        
+    }
+    .themain{
+        width: 900px;
+        height: 700px;
+        background-image: url(../images/Chanel.jpeg);
+        background-size: cover;
+        
+        margin-top: 60px;
+        
+        margin-right:60px;
+        border-radius: 50px;
+        
+    }
+ 
+    h2{
+        font-size: 80px;
+        color: rgb(183, 141, 94);
+    }
+    .btn1{
+        background-color: rgb(146, 96, 39);
+        width: 120px;
+        height: 50px;
+        margin-top: 35px;
+        margin-left: 65px;
+        font-size: 20px;
+        color: rgb(216, 214, 213);
+        border: solid 1px rgb(238, 183, 119);
+    }
+    .btn1:hover{
+        background-color: rgb(230, 153, 66);
+        
+    }
+    /* ************************************************************* */
+    .parent2{
+        display: grid;
+        grid-template-columns: 25% 25% 20% 20%;
+        /* grid-template-rows: 200px 200px 200px; */
+        grid-auto-rows: minmax(200px,500px);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        width: 100%;
+        height: 1000px;
+    }
+    .spec1{
+        margin-top: 50px;
+        margin-left: 130px;
+        background-image: url(../images/lvs.jpeg);
+        background-size: cover;
+        transition: .5s;
+
+    }
+    .spec2{
+       
+        margin-top: 50px;
+        /* margin-left: 70px; */
+        background-image: url(../images/37.jpeg);
+        background-size: cover;
+        transition: .5s;
+    }
+    .spec3{
+        margin-top: 50px;
+        /* margin-left: 70px; */
+        background-image: url(../images/YSL\ \ L\ i\ b\ r\ e.jpeg);
+        background-size: cover;
+        transition: .5s;
+    }
+    .spec4{
+    
+        margin-top: 50px;
+        /* margin-left: 70px; */
+        background-image: url(../images/Marc\ Jacobs\ Daisy.jpeg);
+        background-size: cover;
+        transition: .5s;
+    }
+    .spec5{
+    
+      
+        margin-top: 50px;
+        margin-left: 130px;
+        grid-column: 1 / 3;
+        /* padding: 90px; */
+        margin-top: 120px;
+       
+    }
+    .spec6{
+    
+       
+        margin-top: 50px;
+        /* margin-left: 70px; */
+        background-image: url(../images/hyj.jpeg);
+        background-size: cover;
+        transition: .5s;
+    }
+    .spec7{
+
+       
+        margin-top: 50px;
+        /* margin-left: 70px; */
+        background-image: url(../images/scandl.jpeg);
+        background-size: cover;
+        transition: .5s;
+    }
+    .spec1:hover{
+        transform: scale(1.1,1.1);
+        
+    }
+    .spec2:hover{
+        transform: scale(1.1,1.1);
+        
+    }
+    .spec3:hover{
+        transform: scale(1.1,1.1);
+    
+    }
+    .spec4:hover{
+        transform: scale(1.1,1.1);
+    
+    }
+    .spec6:hover{
+        transform: scale(1.1,1.1);
+        
+    }
+    .spec7:hover{
+        transform: scale(1.1,1.1);
+        
+    }
+
+    h3{
+        margin-top: 70px;
+        font-size: 50px;
+        text-align: center;
+        color: rgb(201, 153, 80);
+    }
+    .p1{
+        padding: 50px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .io{
+        font-size: 30px;
+        margin-top: 20px;
+        margin-left: 60px;
+        color: rgb(121, 79, 31) ;
+    }
+    .iio{
+        font-size: 30px;
+        margin-top: 20px;
+        margin-left: 250px;
+        color: rgb(121, 79, 31) ;
+    }
+    .parent3{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        margin-top: 30px;
+        width: 100%;
+        height: 200px;
+        grid-auto-rows: minmax(200px,500px);
+         /* grid-column-gap: 10px; */
+        
+        transform-style: preserve-3d;
+
+
+
+    }
+    .animated1{
+        width: 100%;
+        height: 100%;
+        position: relative;
+
+    }
+    .divicon1{
+     /* width: 25%; */
+     height: 200px;
+     position: absolute;
+     /* transform: translate(-50%,-50%); */
+
+    }
+    .animated2{
+        width: 100%;
+        height: 100%;
+        position: relative;
+
+    }
+
+    .divicon2{
+        width: 300px;
+        height: 200px;
+        position: absolute;
+
+    }
+    .animated3{
+        width: 100%;
+        height: 100%;
+        position: relative;
+
+    }
+    .divicon3{
+        height: 200px;
+        position: absolute;
+    
+    }
+    .animated4{
+        width: 100%;
+        height: 100%;
+        position: relative;
+
+    }
+    .divicon4{
+        width: 300px;
+        height: 200px;
+    
+        position: absolute;
+    }
+    
+    .ki{
+        padding: 30px 150px ;
+        font-size: 50px;
+        color: rgb(224, 159, 113);
+       
+        /* transform: rotate x(40deg); */
+        position: absolute;
+    }
+    .divicon1:hover .ki{
+        color: rgb(84, 35, 1);
+        transform: rotatex(360deg);
+        transition: 1s;
+    }
+    .divicon2:hover .ki{
+        color: rgb(84, 35, 1);
+        transform: rotatex(360deg);
+        transition: 1s;
+
+    }
+    .divicon3:hover .ki{
+        color: rgb(84, 35, 1);
+        transform: rotatex(360deg);
+        transition: 1s;
+    }
+    .divicon4:hover .ki{
+        color: rgb(84, 35, 1);
+        transform: rotatex(360deg);
+        transition: 1s;
+    }
+    .divicon1:hover h4{
+        color: rgb(235, 167, 118);
+        transform: rotatex(360deg);
+        transition: 1s;
+    }
+    .divicon2:hover h4{
+        color: rgb(235, 167, 118);
+        transform: rotatex(360deg);
+        transition: 1s;
+    }
+    .divicon3:hover h4{
+        color: rgb(235, 167, 118);
+        transform: rotatex(360deg);
+        transition: 1s;
+    }
+    .divicon4:hover h4{
+        color: rgb(235, 167, 118);
+        transform: rotatex(360deg);
+        transition: 1s;
+    }
+
+    h4{
+        text-align: center;
+        font-size: 30px;
+        color: rgb(110, 110, 89);
+        margin-top: 100px;
+    }
+    .p2{
+        text-align: center;
+        font-size: 20px;
+        margin-top: 10px;
+        color: rgba(110, 110, 89, 0.585);
+    }
+    .parent4{
+       transform-style: preserve-3d;
+       display: grid;
+        grid-template-columns: 30% 30% 30%;
+        /* grid-template-rows: 200px 200px 200px; */
+        grid-auto-rows: minmax(200px,500px);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        width: 100%;
+        height: 1000px;
+        
+
+    }
+   .image1{
+
+            position: relative;
+            transform-style: preserve-3d;
+            transition: .5s;
+            width: 300px;
+            height: 500px;
+            margin-left: 100px;
+            margin-top: 50px;
+
+   }
+   .divfront1{
+
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/into\ the\ night.jpeg);
+        background-size: cover;
+        position: absolute;
+        z-index: 1;
+        backface-visibility: hidden;
+   }
+   .divback1{
+
+    width: 100%;
+        height: 100%;
+        background-image: url(../images/night.jpg);
+        background-size: cover;
+        position: absolute;
+        position: relative;
+        z-index: 0;
+        transform: rotateY(180deg);
+   }
+   .image1:hover{
+    transform: rotateY(180deg);
+   }
+   .photoley12{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.336);
+    /* visibility: hidden; */
+   
+}
+.photoley12 a {
+    /* display: inline; */
+    width: 80px;
+    height: 80px;
+    color: aliceblue;
+    font-size: 40px;
+    margin-left: 240px;
+
+}
+.photoley12   a  i {
+    line-height: 60px;
+
+}
+
+   .image2{
+
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .5s;
+    width: 300px;
+    height: 500px;
+
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.divfront2{
+
+width: 100%;
+height: 100%;
+background-image: url(../images/rose.jpeg);
+background-size: cover;
+position: absolute;
+z-index: 1;
+backface-visibility: hidden;
+}
+.divback2{
+
+width: 100%;
+height: 100%;
+background-image: url(../images/rose.jpg);
+background-size: cover;
+position: absolute;
+position: relative;
+z-index: 0;
+transform: rotateY(180deg);
+}
+.image2:hover{
+transform: rotateY(180deg);
+}
+.image3{
+
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .5s;
+    width: 300px;
+    height: 500px;
+    
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.divfront3{
+
+width: 100%;
+height: 100%;
+background-image: url(../images/A\ Thousand\ Wishes.jpeg);
+background-size: cover;
+position: absolute;
+z-index: 1;
+backface-visibility: hidden;
+}
+.divback3{
+
+width: 100%;
+height: 100%;
+background-image: url(../images/thousand.jpg);
+background-size: cover;
+position: absolute;
+position: relative;
+z-index: 0;
+transform: rotateY(180deg);
+}
+.image3:hover{
+transform: rotateY(180deg);
+}
+.image4{
+
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .5s;
+    width: 300px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.divfront4{
+
+width: 100%;
+height: 100%;
+background-image: url(../images/you\ are\ the\ one.jpeg);
+background-size: cover;
+position: absolute;
+z-index: 1;
+backface-visibility: hidden;
+}
+.divback4{
+
+width: 100%;
+height: 100%;
+background-image: url(../images/one.jpg);
+background-size: cover;
+position: absolute;
+position: relative;
+z-index: 0;
+transform: rotateY(180deg);
+}
+.image4:hover{
+transform: rotateY(180deg);
+}
+.image5{
+
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .5s;
+    width: 300px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.divfront5{
+
+width: 100%;
+height: 100%;
+background-image: url(../images/warm\ vanilla.jpeg);
+background-size: cover;
+position: absolute;
+z-index: 1;
+backface-visibility: hidden;
+}
+.divback5{
+
+width: 100%;
+height: 100%;
+background-image: url(../images/warm.jpg);
+background-size: cover;
+position: absolute;
+position: relative;
+z-index: 0;
+transform: rotateY(180deg);
+}
+.image5:hover{
+transform: rotateY(180deg);
+}
+.image6{
+
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .5s;
+    width: 300px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.divfront6{
+
+width: 100%;
+height: 100%;
+background-image: url(../images/partty.jpeg);
+background-size: cover;
+position: absolute;
+z-index: 1;
+backface-visibility: hidden;
+}
+.divback6{
+
+width: 100%;
+height: 100%;
+background-image: url(../images/party.jpg);
+background-size: cover;
+position: absolute;
+position: relative;
+z-index: 0;
+transform: rotateY(180deg);
+}
+.image6:hover{
+transform: rotateY(180deg);
+}
